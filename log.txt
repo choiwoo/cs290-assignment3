@@ -1,3 +1,7 @@
 Start: Friday 24 Apr 2015 17:35:56 -0700
 End: Friday 24 Apr 2015 23:00:00 -0700
 Tasks: Finished variable.js
+
+Start: Friday 25 Apr 2015 18:50:56 -0700
+End: Friday 25 Apr 2015 22:15:03 -0700
+Tasks: Finished variable.js, object.js
