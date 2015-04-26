@@ -13,7 +13,9 @@
 */
 
 //your code here
-
+function uselessFunction(){
+	return null;
+}
 //end your code
 
 var bar = 'not a function';
@@ -21,16 +23,25 @@ var barType = typeof bar;
 
 /**
 * Assign the above variable 'bar' to an anonymous function with the following
-* properites.
+* properties.
 * @param {float[]} doubleArray - an array of floating point numbers.
 * The function should multiply every number in the array by 2 (this should
 * change the content of the array).
-* @return {boolean} - true if the operation was sucessful, false otherwise.
+* @return {boolean} - true if the operation was successful, false otherwise.
 * This should return false if any value in the array cannot be doubled.
 */
 
 //your code here
-
+bar = function(doubleArray){
+	for(var i=0; i<doubleArray.length; i++){
+		doubleArray[i] = doubleArray[i] *2; //multiply by 2
+		if(Object.is(doubleArray[i],NaN)){   //compares for NaN, if true, return false
+			return false;
+		}
+	}
+	return true;   //everything worked, return true
+	}		
+		
 //end your code
 
 /**
@@ -66,5 +77,13 @@ function GitLog(hash, date, message) {
 */
 
 //your code here
+function parseGit(logArray){
 
+var superL = [];
+for (var i =0; i < logArray.length; i++){
+superL[i]= new GitLog(logArray[i].slice(0,7),new Date(logArray[i].slice(8,logArray[i].indexOf('"')-1)), logArray[i].slice(logArray[i].indexOf('"')+1,logArray[i].length-1));
+
+}
+return superL;	
+}
 //end your code
