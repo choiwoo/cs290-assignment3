@@ -10,13 +10,7 @@
 
 function returnObjectLiteral() {
   //your code here
-  var object = new Object();
-  object.type = 'Goldfish';
-  object.brand = 'Pepperidge Farm';
-  object.flavor = 'Cheddar';
-  object.count = 2000;
- 
-  return object; //Modify ONLY this line
+  return {type: 'Goldfish', brand: 'Pepperidge Farm', flavor: 'Cheddar', count: 2000}; //Modify ONLY this line
   //end your code
 }
 
