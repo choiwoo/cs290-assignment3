@@ -5,3 +5,26 @@ Tasks: Finished variable.js
 Start: Friday 25 Apr 2015 18:50:56 -0700
 End: Friday 25 Apr 2015 22:15:03 -0700
 Tasks: Finished variable.js, object.js
+
+I accidentally created a new log.txt for P2, but here is the copy of it below:
+
+P2:
+
+Start: 
+End: Sun, 26 Apr 2015 23:19:08 -0700 
+Tasks: finished
+Start: 
+End: Sun, 26 Apr 2015 22:13:04 -0700 
+Tasks: finished, sort of
+Start: 
+End: Sun, 26 Apr 2015 18:36:24 -0700 
+Tasks: Added js, and updated html
+Start: 
+End: Sun, 26 Apr 2015 01:11:44 -0700 
+Tasks: added log.txt
+Start: 
+End: Sun, 26 Apr 2015 00:02:12 -0700 
+Tasks: Added html
+
+** note this is not really accurate as workload varied thru out the weak, just
+didn't create a git repository
